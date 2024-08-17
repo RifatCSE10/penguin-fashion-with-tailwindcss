@@ -20,13 +20,17 @@
     .roboto{
         font-family: "Roboto", sans-serif;
     }
+
+    .shadow{
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
+    }
     </style>
 </head>
 <body>
-    <header class="bg-[#FFFBF0]">
+    <header class="bg-[#FFFBF0] mb-24">
         <nav></nav>
         <!-- Banner section start here... -->
-        <section class="w-full px-3.5 my-5">
+        <section class="w-full px-3.5 h-screen lg:flex lg:items-center lg:justify-center lg:space-x-32">
             <div>
                 <h1 class="bebas-neue text-5xl font-bold tracking-normal"> <span class="text-[#FABE4C]">Be the Penguins</span><br> <span class="text-[#363958]">of Winter</span></h1>
                 <p class="roboto text-base text-[#3E3E3E] font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -35,10 +39,63 @@
                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                   </svg>BUY NOW</button>
             </div>
-            <div class="w-[300px] mx-auto mt-10">
+            <div class="sm:w-[300px] sm:mx-auto sm:mt-10 lg:w-[400px] lg:mx-0">
                 <img class="h-full w-full" src="./images/model.png" alt="model-img">
             </div>
         </section>
     </header>
+    <main>
+        <!-- Woman jacket section start here... -->
+        <section class="sm:w-full">
+            <h1 class="text-4xl text-center text-[#363958] mb-7">WoMan Jacket</h1>
+            <div class="space-y-3">
+                <div class="w-[280px] mx-auto p-4 shadow">
+                    <div class="w-[240px] mx-auto bg-slate-100">
+                        <img class="w-full" src="./images/jacket-1.png" alt="jacket">
+                    </div>
+                        <h3 class="text-2xl text-[#363958] roboto mt-3">Yellow Coat Jacket </h3>
+                        <p class="text-xs text-[#3E3E3E] mt-4 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex items-center justify-between mt-5">
+                            <h2 class="text-2xl text-[#FABE4C] font-bold inline">$234</h2>
+                            <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#ffff] py-3 px-5 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffff" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline mr-2">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>BUY NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="w-[280px] shadow mx-auto p-4">
+                    <div class="w-[240px] mx-auto bg-slate-100">
+                        <img class="w-full" src="./images/jacket-1.png" alt="jacket">
+                    </div>
+                        <h3 class="text-2xl text-[#363958] roboto mt-3">Yellow Coat Jacket </h3>
+                        <p class="text-xs text-[#3E3E3E] mt-4 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex items-center justify-between mt-5">
+                            <h2 class="text-2xl text-[#FABE4C] font-bold inline">$234</h2>
+                            <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#ffff] py-3 px-5 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffff" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline mr-2">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>BUY NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="w-[280px]  mx-auto p-4 shadow">
+                    <div class="w-[240px] mx-auto bg-slate-100">
+                        <img class="w-full" src="./images/jacket-1.png" alt="jacket">
+                    </div>
+                        <h3 class="text-2xl text-[#363958] roboto mt-3">Yellow Coat Jacket </h3>
+                        <p class="text-xs text-[#3E3E3E] mt-4 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div class="flex items-center justify-between mt-5">
+                            <h2 class="text-2xl text-[#FABE4C] font-bold inline">$234</h2>
+                            <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#ffff] py-3 px-5 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffff" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline mr-2">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
